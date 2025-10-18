@@ -512,6 +512,40 @@
                             </div>
                         </div>
                     </div>
+                    <div class="product-card-single" style="max-width: 420px; min-width: 280px; flex: 1 1 320px;"
+                        id="product-card-5">
+                        <div class="our-product-card p-4 h-100 shadow rounded bg-white">
+                            <img src="{{asset('assets/img/catcoty.jpeg')}}" alt="Product 5" class="img-fluid mb-3 our-product-img" style="height: 259px;">
+                            <div class="our-product-content">
+                                <h5 class="mb-2" data-translate="brands.catcoty">CatCoty</h5>
+                                <p data-translate="brands.bessa.kitten.desc">Dry food for specially designed kittens,
+                                    supporting fast growth with essential nutrients for strong bones, good eyesight, and
+                                    immunity.</p>
+                                <div>
+                                    <strong data-translate="brands.nutrition">Nutritional Value</strong>
+                                    <ul>
+                                        <li data-translate="brands.bessa.kitten.dha">Rich in DHA</li>
+                                        <li data-translate="brands.bessa.kitten.protein">Protein</li>
+                                        <li data-translate="brands.bessa.kitten.vitamins">Vitamins (A, D, E)</li>
+                                        <li data-translate="brands.bessa.kitten.minerals">Minerals including calcium
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <strong data-translate="brands.suitable">Suitable for</strong>
+                                    <p data-translate="brands.bessa.kitten.suitable">Kittens under 6 months old</p>
+                                </div>
+                                <div class="product-btn-row">
+                                    <a class="product-btn" href="https://101bite.com/store"
+                                        data-translate="brands.bessa.buy">Buy Now</a>
+                                    <span class="product-social">
+                                        <a href="https://web.facebook.com/bessabites" target="_blank" title="Facebook"><i
+                                                class="bi bi-facebook"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -551,6 +585,7 @@
             document.getElementById('product-card-2').style.display = 'none';
             document.getElementById('product-card-3').style.display = 'none';
             document.getElementById('product-card-4').style.display = 'none';
+            document.getElementById('product-card-5').style.display = 'none';
             var petSelectionModal = new bootstrap.Modal(document.getElementById('petSelectionModal'));
             petSelectionModal.show();
             // Hide sidebar when popup is visible
@@ -594,6 +629,7 @@
                 document.getElementById('product-card-2').style.display = 'block';
                 document.getElementById('product-card-3').style.display = 'none';
                 document.getElementById('product-card-4').style.display = 'none';
+                document.getElementById('product-card-5').style.display = 'none';
                 const pageTitle = document.getElementById('products-page-title');
                 pageTitle.setAttribute('data-translate', 'brands.dogs');
                 pageTitle.textContent = 'Dog Brands';
@@ -606,6 +642,7 @@
                 document.getElementById('product-card-2').style.display = 'none';
                 document.getElementById('product-card-3').style.display = 'block';
                 document.getElementById('product-card-4').style.display = 'block';
+                document.getElementById('product-card-5').style.display = 'block';
                 const pageTitle = document.getElementById('products-page-title');
                 pageTitle.setAttribute('data-translate', 'brands.cats');
                 pageTitle.textContent = 'Cat Brands';

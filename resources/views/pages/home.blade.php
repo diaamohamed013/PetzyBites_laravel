@@ -524,6 +524,17 @@
                     </div>
                     <img src="{{asset('assets/img/Package3.png')}}" class="brand_img" alt="">
                 </div>
+                <div class="brand101">
+                    <div class="circle" style="--clr:#15a74b;">
+                        <img class="brand-logo" src="{{asset('assets/img/mshmsh.png')}}" alt="">
+                    </div>
+                    <div class="content1">
+                        <h2 data-translate="brands.catcoty">CatCoty</h2>
+                        <p data-translate="brands.mshmsh.desc">Cat Brand</p>
+                        <a href="https://101bite.com/store" data-translate="brands.mshmsh.buy">Buy Now</a>
+                    </div>
+                    <img src="{{asset('assets/img/catcoty.jpeg')}}" class="brand_img" alt="">
+                </div>
             </div>
         </section>
 
