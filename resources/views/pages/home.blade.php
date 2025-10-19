@@ -526,7 +526,7 @@
                 </div>
                 <div class="brand101">
                     <div class="circle" style="--clr:#15a74b;">
-                        <img class="brand-logo" src="{{asset('assets/img/mshmsh.png')}}" alt="">
+                        <img class="brand-logo" src="{{asset('assets/img/catcaoty_logo.png')}}" alt="">
                     </div>
                     <div class="content1">
                         <h2 data-translate="brands.catcoty">CatCoty</h2>
